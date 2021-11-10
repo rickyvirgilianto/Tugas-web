@@ -13,6 +13,7 @@ class Header extends Component{
         view : 'home'
       }
     }
+    
   render(){
     const View = ()=>{
         if(this.state.view == 'home')
